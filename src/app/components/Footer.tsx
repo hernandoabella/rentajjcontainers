@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link"; // 👈 Importa Link
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
@@ -47,14 +48,14 @@ export default function Footer() {
 
         {/* Columna 2 */}
         <div>
-          <h3 className="text-white text-lg font-semibold mb-4">Enlaces râpidos</h3>
+          <h3 className="text-white text-lg font-semibold mb-4">Enlaces rápidos</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="/" className="hover:text-white">Inicio</a></li>
-            <li><a href="/sobre-nosotros" className="hover:text-white">Sobre Nosotros</a></li>
-            <li><a href="/venta-y-compra" className="hover:text-white">Venta y Compra</a></li>
-            <li><a href="/marcado-de-contenedores" className="hover:text-white">Marcado de Contenedores</a></li>
-            <li><a href="/contenedores" className="hover:text-white">Contenedores</a></li>
-            <li><a href="/conversion-de-contenedores" className="hover:text-white">Conversiôn de Contenedores</a></li>
+            <li><Link href="/" className="hover:text-white">Inicio</Link></li>
+            <li><Link href="/sobre-nosotros" className="hover:text-white">Sobre Nosotros</Link></li>
+            <li><Link href="/venta-y-compra" className="hover:text-white">Venta y Compra</Link></li>
+            <li><Link href="/marcado-de-contenedores" className="hover:text-white">Marcado de Contenedores</Link></li>
+            <li><Link href="/contenedores" className="hover:text-white">Contenedores</Link></li>
+            <li><Link href="/conversion-de-contenedores" className="hover:text-white">Conversión de Contenedores</Link></li>
           </ul>
         </div>
 
@@ -62,7 +63,7 @@ export default function Footer() {
         <div>
           <h3 className="text-white text-lg font-semibold mb-4">Contacto</h3>
           <ul className="space-y-2 text-sm">
-            <div>Generencia</div>
+            <div>Gerencia</div>
             <li>gerencia@rentacontainersjj.com</li>
             <div>Contabilidad</div>
             <li>contabilidad@rentacontainersjj.com</li>
@@ -72,7 +73,7 @@ export default function Footer() {
             <li>asesorcomercial@rentacontainersjj.com</li>
             <li>+57 310 404 0273, +57 310 562 7230</li>
             <li>
-              Calle 69 No. Via 40 - 431 - Barranquilla, Atlântico
+              Calle 69 No. Via 40 - 431 - Barranquilla, Atlántico
             </li>
           </ul>
         </div>
@@ -80,7 +81,7 @@ export default function Footer() {
 
       {/* Línea inferior */}
       <div className="mt-10 border-t border-gray-700 pt-4 flex justify-between items-center text-sm px-6">
-        <span>© 2025 RENTAJJ CONTAINERS. All rights reserved.</span>
+        <span>© 2025 RENTAJJ CONTAINERS. Todos los derechos reservados.</span>
         <button
           onClick={scrollToTop}
           className="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 transition"
