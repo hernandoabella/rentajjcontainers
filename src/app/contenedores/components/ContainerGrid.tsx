@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const containers = [
   { name: "Contenedor Estándar de 10 Pies", image: "/containers/10ft-standard.jpg" },
@@ -40,11 +41,17 @@ export default function ContainersGrid() {
             transition={{ duration: 0.6, delay: idx * 0.05 }}
             className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:scale-[1.02] transition-transform duration-300"
           >
-            <img
-              src={container.image}
-              alt={container.name}
-              className="w-full h-64 object-cover"
-            />
+            <div className="relative w-full h-64">
+              <Image
+                src={container.image}
+                alt={container.name}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw,
+                       (max-width: 1200px) 50vw,
+                       33vw"
+              />
+            </div>
             <div className="p-5 text-center">
               <h3 className="text-lg font-semibold text-gray-800">
                 {container.name}
