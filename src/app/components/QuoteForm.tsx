@@ -15,7 +15,7 @@ export default function QuoteForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const phoneNumber = "+573043932597"; // tu número de WhatsApp
+    const phoneNumber = "+573104040273"; // tu número de WhatsApp
     const message = `Cotización Rápida:
 Tamaño: ${size}
 Tipo de Contenedor: ${containerType}
