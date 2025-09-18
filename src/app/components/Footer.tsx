@@ -1,5 +1,7 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
+import Link from "next/link"; // 👈 Importa Link
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
@@ -26,17 +28,17 @@ export default function Footer() {
           </p>
           <div className="flex gap-4">
             <a
-              href="https://facebook.com"
+              href="#"
               target="_blank"
-              rel="noopener noreferrer"
+              
               className="hover:text-blue-500 transition"
             >
               <FaFacebookF size={18} />
             </a>
             <a
-              href="https://instagram.com"
+              href="#"
               target="_blank"
-              rel="noopener noreferrer"
+              
               className="hover:text-pink-500 transition"
             >
               <FaInstagram size={18} />
@@ -70,7 +72,9 @@ export default function Footer() {
             <div>Asesor Comercial</div>
             <li>asesorcomercial@rentacontainersjj.com</li>
             <li>+57 310 404 0273, +57 310 562 7230</li>
-            <li>Calle 69 No. Via 40 - 431 - Barranquilla, Atlántico</li>
+            <li>
+              Calle 69 No. Via 40 - 431 - Barranquilla, Atlántico
+            </li>
           </ul>
         </div>
       </div>
