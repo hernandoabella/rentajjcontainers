@@ -10,7 +10,7 @@ export default function QuoteForm() {
   const [whatsapp, setWhatsapp] = useState("");
   const [email, setEmail] = useState("");
   const [operationType, setOperationType] = useState("Comprar");
-  const [transport, setTransport] = useState("");
+  const [transport] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
