@@ -30,7 +30,7 @@ export default function Footer() {
             <a
               href="#"
               target="_blank"
-              rel="noopener noreferrer"
+              
               className="hover:text-blue-500 transition"
             >
               <FaFacebookF size={18} />
@@ -38,7 +38,7 @@ export default function Footer() {
             <a
               href="#"
               target="_blank"
-              rel="noopener noreferrer"
+              
               className="hover:text-pink-500 transition"
             >
               <FaInstagram size={18} />
