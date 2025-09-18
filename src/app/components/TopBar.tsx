@@ -6,8 +6,8 @@ export default function TopBar() {
     <div className="bg-black text-white text-sm px-6 py-2 flex justify-between items-center">
       {/* Lado izquierdo */}
       <div className="flex gap-6">
-        <span>📞 +57 300 123 4567</span>
-        <span>✉️ contacto@ejemplo.com</span>
+        <span>📞 +57 310 404 0273</span>
+        <span>✉️ gerencia@rentacontainersjj.com</span>
       </div>
 
       {/* Lado derecho */}

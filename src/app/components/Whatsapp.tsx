@@ -3,8 +3,8 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "+971545179279"; // Cambia por tu número de WhatsApp
-  const message = "Hello! I would like to get more information."; // Mensaje inicial opcional
+  const phoneNumber = "+573104040273"; // Tu número de WhatsApp
+  const message = "¡Hola! Me gustaría obtener más información."; // Mensaje inicial opcional
 
   const handleClick = () => {
     const url = `https://wa.me/${phoneNumber.replace(
@@ -17,10 +17,10 @@ export default function WhatsAppButton() {
   return (
     <button
       onClick={handleClick}
-      className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
+      className="fixed bottom-6 left-6 flex items-center justify-center bg-green-500 text-white w-14 h-14 rounded-full shadow-lg hover:bg-green-600 transition duration-300 z-50"
+      aria-label="Contactar por WhatsApp"
     >
-      <FaWhatsapp size={20} />
-      <span>WhatsApp</span>
+      <FaWhatsapp size={28} />
     </button>
   );
 }

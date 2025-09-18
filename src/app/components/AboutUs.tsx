@@ -31,11 +31,7 @@ export default function AboutUs() {
             Sobre Nosotros
           </h2>
           <p className="text-gray-600 mb-4">
-            En RENTAJJ CONTAINERS nos dedicamos a ofrecer soluciones de
-            almacenamiento y transporte de contenedores marítimos de la más
-            alta calidad. Nuestro equipo se compromete a brindar productos
-            confiables, innovadores y adaptados a las necesidades de cada
-            cliente.
+            Rentacontainers JJ S.A.S. es una empresa dedicada al diseño, fabricación y adecuación de contenedores tipo oficina, ofreciendo soluciones innovadoras, funcionales y de alta calidad para proyectos empresariales, industriales y comerciales. Nos enfocamos en satisfacer las necesidades de nuestros clientes mediante un servicio confiable, ágil y orientado a la eficiencia, garantizando el cumplimiento de estándares técnicos y ambientales, así como el bienestar de nuestros colaboradores.
           </p>
           <p className="text-gray-600">
             Con años de experiencia en la industria, somos el socio de confianza

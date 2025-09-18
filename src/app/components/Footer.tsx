@@ -14,20 +14,20 @@ export default function Footer() {
         {/* Columna 1 */}
         <div>
           <Image
-            src="/logo.jpeg"
+            src="/logo2.png"
             alt="Logo"
-            width={80}
-            height={80}
+            width={150}
+            height={150}
             className="mb-4"
           />
           <p className="mb-4 text-sm">
-            BoxHub Cargo Containers es una compañía especializada en la venta,
+            RENTAJJ Containers es una compañía especializada en la venta,
             compra y conversión de contenedores. Ofrecemos soluciones confiables
             y eficientes para el manejo de carga en todo el mundo.
           </p>
           <div className="flex gap-4">
             <a
-              href="https://facebook.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition"
@@ -35,7 +35,7 @@ export default function Footer() {
               <FaFacebookF size={18} />
             </a>
             <a
-              href="https://instagram.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-500 transition"
@@ -47,32 +47,32 @@ export default function Footer() {
 
         {/* Columna 2 */}
         <div>
-          <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
+          <h3 className="text-white text-lg font-semibold mb-4">Enlaces râpidos</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="/" className="hover:text-white">Home</a></li>
-            <li><a href="/about" className="hover:text-white">About Us</a></li>
-            <li><a href="/sale-purchase" className="hover:text-white">Sale & Purchase</a></li>
-            <li><a href="/marking" className="hover:text-white">Marking of Containers</a></li>
-            <li><a href="/containers" className="hover:text-white">Containers</a></li>
-            <li><a href="/conversion" className="hover:text-white">Container Conversion</a></li>
-            <li><a href="/blog" className="hover:text-white">Blog</a></li>
-            <li><a href="/careers" className="hover:text-white">Careers</a></li>
-            <li><a href="/contact" className="hover:text-white">Contact Us</a></li>
-            <li><a href="tel:+971545179279" className="hover:text-white">+971 545 179 279</a></li>
+            <li><a href="/" className="hover:text-white">Inicio</a></li>
+            <li><a href="/sobre-nosotros" className="hover:text-white">Sobre Nosotros</a></li>
+            <li><a href="/venta-y-compra" className="hover:text-white">Venta y Compra</a></li>
+            <li><a href="/marcado-de-contenedores" className="hover:text-white">Marcado de Contenedores</a></li>
+            <li><a href="/contenedores" className="hover:text-white">Contenedores</a></li>
+            <li><a href="/conversion-de-contenedores" className="hover:text-white">Conversiôn de Contenedores</a></li>
           </ul>
         </div>
 
         {/* Columna 3 */}
         <div>
-          <h3 className="text-white text-lg font-semibold mb-4">Contact Info</h3>
+          <h3 className="text-white text-lg font-semibold mb-4">Contacto</h3>
           <ul className="space-y-2 text-sm">
-            <li>sales@boxhubcargocontainers.com</li>
-            <li>admin@boxhubcargocontainers.com</li>
-            <li>+971 545 179 279, +971 434 36794</li>
+            <div>Generencia</div>
+            <li>gerencia@rentacontainersjj.com</li>
+            <div>Contabilidad</div>
+            <li>contabilidad@rentacontainersjj.com</li>
+            <div>Asistente Administrativo</div>
+            <li>asistente.administrativa@rentacontainersjj.com</li>
+            <div>Asesor Comercial</div>
+            <li>asesorcomercial@rentacontainersjj.com</li>
+            <li>+57 310 404 0273, +57 310 562 7230</li>
             <li>
-              Office No: 107 Dubai National Insurance P.S.C Bldg <br />
-              Near to Tesla, Sheikh Zayed Road <br />
-              Dubai-UAE
+              Calle 69 No. Via 40 - 431 - Barranquilla, Atlântico
             </li>
           </ul>
         </div>
@@ -85,7 +85,7 @@ export default function Footer() {
           onClick={scrollToTop}
           className="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700 transition"
         >
-          Ir al cielo ↑
+          ↑
         </button>
       </div>
     </footer>

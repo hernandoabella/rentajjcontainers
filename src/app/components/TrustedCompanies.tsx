@@ -9,6 +9,7 @@ const logos = [
   "/logos/company3.png",
   "/logos/company4.png",
   "/logos/company5.png",
+  "/logos/company6.png",
 ];
 
 export default function TrustedCompanies() {

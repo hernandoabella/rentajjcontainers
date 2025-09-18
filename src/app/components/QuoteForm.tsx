@@ -162,7 +162,7 @@ Transporte: ${transport}`;
         type="submit"
         className="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition font-bold"
       >
-        Enviar
+        Cotizar Ahora
       </button>
     </form>
   );

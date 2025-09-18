@@ -9,12 +9,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Sale & Purchase", href: "/sale-purchase" },
-    { name: "Marking of Containers", href: "/marking-containers" },
-    { name: "Containers", href: "/containers" },
-    { name: "Container Conversion", href: "/conversion" },
+    { name: "Inicio", href: "/" },
+    { name: "Sobre Nosotros", href: "/sobre-nosotros" },
+    { name: "Venta y Compra", href: "/venta-y-compra" },
+    { name: "Marcado de Contenedores", href: "/marcado-de-contenedores" },
+    { name: "Contenedores", href: "/contenedores" },
+    { name: "Conversiôn de Contenedores", href: "/conversion-de-contenedores" },
   ];
 
   return (
@@ -24,9 +24,9 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           <Image
             src="/logo.jpeg"
-            alt="BoxHub Logo"
-            width={100}
-            height={100}
+            alt="rentajj containers logo"
+            width={150}
+            height={150}
             
           />
           

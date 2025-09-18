@@ -14,25 +14,25 @@ const modularContainers: ModularContainer[] = [
     condition: "Nuevo",
     title: "CONTENEDOR MODULAR 20 PIES",
     price: "0,00$",
-    image: "/modular-20ft.jpg",
+    image: "/containers/modular-20ft.jpg",
   },
   {
     condition: "Nuevo",
     title: "CONTENEDOR PLEGABLE DE 20 PIES",
     price: "0,00$",
-    image: "/modular-foldable-20ft.jpg",
+    image: "/containers/modular-foldable-20ft.jpg",
   },
   {
     condition: "Nuevo",
     title: "CONTENEDOR MODULAR PERSONALIZADO",
     price: "0,00$",
-    image: "/modular-custom.jpg",
+    image: "/containers/modular-custom.jpg",
   },
   {
     condition: "Nuevo",
     title: "CONTENEDOR MODULAR DOS PUERTAS",
     price: "0,00$",
-    image: "/modular-two-doors.jpg",
+    image: "/containers/modular-two-doors.jpg",
   },
 ];
 

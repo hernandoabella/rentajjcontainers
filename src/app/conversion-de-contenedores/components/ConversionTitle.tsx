@@ -6,7 +6,7 @@ export default function ConversionTitle() {
   return (
     <section
       className="relative h-[20vh] md:h-[25vh] flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/conversion-bg.jpg')" }}
+      style={{ backgroundImage: "url('/conversion-de-contenedores/conversion-bg.jpg')" }}
     >
       {/* Overlay oscuro */}
       <div className="absolute inset-0 bg-black/60"></div>

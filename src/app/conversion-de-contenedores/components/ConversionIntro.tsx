@@ -72,7 +72,7 @@ export default function ConversionIntro() {
         viewport={{ once: true }}
       >
         <Image
-          src="/images/container-conversion.jpg"
+          src="/conversion-de-contenedores/intro.jpg"
           alt="Container Conversion"
           fill
           className="object-cover"
