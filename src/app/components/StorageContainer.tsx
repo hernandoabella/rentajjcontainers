@@ -9,7 +9,7 @@ interface ContainerCardProps {
   image: string;
 }
 
-const phoneNumber = "+971545179279"; // Tu número de WhatsApp
+const phoneNumber = "+573104040273"; // Tu número de WhatsApp
 
 const containers: ContainerCardProps[] = [
   {
@@ -28,7 +28,7 @@ const containers: ContainerCardProps[] = [
     condition: "Usado",
     title: "Contenedor De 40ft High Cube",
     price: "12.055.230,00$",
-    image: "/containers/40ft-highcube.jpg",
+    image: "/containers/40ft-highcube-e.jpg",
   },
   {
     condition: "Nuevo",
