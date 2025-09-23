@@ -22,11 +22,19 @@ export default function Navbar() {
   const navLinks = [
     { name: "Inicio", href: "/" },
     { name: "Sobre Nosotros", href: "/sobre-nosotros" },
-    { name: "Venta y Compra", href: "/venta-y-compra" },
+    { name: "Compra y Venta", href: "/compra-y-venta" },
     { name: "Marcado de Contenedores", href: "/marcado-de-contenedores" },
     { name: "Contenedores", href: "/contenedores" },
     { name: "Conversión de Contenedores", href: "/conversion-de-contenedores" },
   ];
+
+  // Función para abrir WhatsApp
+  const openWhatsApp = () => {
+    const phoneNumber = "+573104040273";
+    const message = "Hola, me gustaría solicitar una cotización de sus servicios de contenedores.";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
 
   // Función para verificar si el link está activo
   const isActiveLink = (href: string) => {
@@ -85,31 +93,23 @@ export default function Navbar() {
               );
             })}
             
-            {/* CTA Button */}
-            <Link
-              href="/cotizar"
-              className={`ml-4 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-200 transform hover:-translate-y-0.5 shadow-md hover:shadow-lg border-2 ${
-                pathname === "/cotizar"
-                  ? 'bg-yellow-400 text-black border-yellow-400 hover:bg-yellow-500 hover:border-yellow-500'
-                  : 'bg-red-600 border-red-600 hover:bg-red-700 hover:border-red-700'
-              }`}
+            {/* CTA Button - Ahora abre WhatsApp */}
+            <button
+              onClick={openWhatsApp}
+              className={`ml-4 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-200 transform hover:-translate-y-0.5 shadow-md hover:shadow-lg border-2 bg-red-500  hover:bg-red-700`}
             >
               Cotizar Ahora
-            </Link>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center space-x-4">
-            <Link
-              href="/cotizar"
-              className={`text-white px-4 py-2 rounded-lg font-semibold text-sm transition border-2 ${
-                pathname === "/cotizar"
-                  ? 'bg-yellow-400 text-black border-yellow-400'
-                  : 'bg-red-600 border-red-600 hover:bg-red-700'
-              }`}
+            <button
+              onClick={openWhatsApp}
+              className={`text-white px-4 py-2 rounded-lg font-semibold text-sm transition border-2 bg-green-600 border-green-600 hover:bg-green-700`}
             >
               Cotizar
-            </Link>
+            </button>
             <button 
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-lg bg-red-50 text-red-600 hover:bg-red-100 transition border-2 border-red-100"
@@ -151,10 +151,10 @@ export default function Navbar() {
                   <FaPhone className="mr-3" />
                   Llamar Ahora
                 </a>
-                <a href="https://wa.me/573104040273" className="flex items-center text-green-600 font-semibold bg-green-50 px-4 py-2 rounded-lg">
+                <button onClick={openWhatsApp} className="flex items-center text-green-600 font-semibold bg-green-50 px-4 py-2 rounded-lg w-full">
                   <FaWhatsapp className="mr-3" />
-                  WhatsApp
-                </a>
+                  Cotizar por WhatsApp
+                </button>
               </div>
             </li>
           </ul>
