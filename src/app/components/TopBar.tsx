@@ -8,8 +8,8 @@ export default function TopBar() {
     email: "gerencia@rentacontainersjj.com",
     location: "Barranquilla, Colombia",
     socialMedia: {
-      instagram: "https://instagram.com/rentacontainersjj",
-      facebook: "https://facebook.com/rentacontainersjj"
+      instagram: "https://www.instagram.com/contenedores_colombia/",
+      facebook: "https://www.facebook.com/rentacontainers"
     }
   };
 
@@ -64,8 +64,8 @@ export default function TopBar() {
 
             {/* Social Media & Tagline - Right Side */}
             <div className="flex items-center gap-4">
-              <span className="text-yellow-400 text-xs hidden xl:block font-semibold">
-                🌊 Expertos en Soluciones con Contenedores
+              <span className="text-white text-xs hidden xl:block font-semibold">
+                🌊 Venta, alquiler y adecuación de contenedores marítimos.
               </span>
               
               <div className="flex gap-3">
