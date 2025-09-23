@@ -13,13 +13,13 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: FaFacebookF,
-      href: "#",
+      href: "https://www.facebook.com/rentacontainers",
       label: "Facebook",
       color: "hover:text-blue-500"
     },
     {
       icon: FaInstagram,
-      href: "#",
+      href: "https://www.instagram.com/contenedores_colombia/",
       label: "Instagram", 
       color: "hover:text-pink-500"
     }
@@ -29,7 +29,7 @@ export default function Footer() {
   const navLinks = [
     { href: "/", label: "Inicio" },
     { href: "/sobre-nosotros", label: "Sobre Nosotros" },
-    { href: "/venta-y-compra", label: "Venta y Compra" },
+    { href: "/compra-y-venta", label: "Compra y Venta" },
     { href: "/marcado-de-contenedores", label: "Marcado de Contenedores" },
     { href: "/contenedores", label: "Contenedores" },
     { href: "/conversion-de-contenedores", label: "Conversión de Contenedores" }
