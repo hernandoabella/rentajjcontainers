@@ -35,7 +35,7 @@ export default function ConversionIntro() {
           Convertimos Contenedores en Espacios Acogedores
         </h2>
         <p className="text-gray-600 leading-relaxed">
-          BOX HUB ofrece servicios de conversión y modificación de contenedores de primera clase. Nuestro equipo profesional incluye arquitectos, técnicos en AutoCAD y mano de obra calificada. Utilizamos métodos avanzados de prefabricación para convertir contenedores.
+          RENTACONTAINERJJ ofrece servicios de conversión y modificación de contenedores de primera clase. Nuestro equipo profesional incluye arquitectos, técnicos en AutoCAD y mano de obra calificada. Utilizamos métodos avanzados de prefabricación para convertir contenedores.
         </p>
         <p className="text-gray-600 leading-relaxed">
           Un contenedor puede ser usado como oficina de obra, espacio de estudio o incluso habitaciones de hotel – tú propones la idea y nosotros la hacemos realidad.
@@ -44,7 +44,7 @@ export default function ConversionIntro() {
           Los contenedores son unidades versátiles, fuertes, seguras y resistentes a la intemperie, haciendo sus aplicaciones prácticamente ilimitadas.
         </p>
         <p className="text-gray-600 leading-relaxed">
-          En BoxHub te ayudamos a materializar tu proyecto de contenedor, desde el diseño hasta los trámites legales. Contamos con arquitectos, ingenieros, diseñadores, carpinteros y abogados que trabajarán contigo según tus necesidades. Con nuestros espacios a medida buscamos reducir nuestra huella de carbono y contribuir a un planeta más verde.
+          En RENTACONTAINERJJ te ayudamos a materializar tu proyecto de contenedor, desde el diseño hasta los trámites legales. Contamos con arquitectos, ingenieros, diseñadores, carpinteros y abogados que trabajarán contigo según tus necesidades. Con nuestros espacios a medida buscamos reducir nuestra huella de carbono y contribuir a un planeta más verde.
         </p>
 
         {/* Bullet list de proyectos */}
@@ -55,7 +55,7 @@ export default function ConversionIntro() {
           <ul className="space-y-2 text-gray-600">
             {projects.map((item, idx) => (
               <li key={idx} className="flex items-start">
-                <FaCheckCircle className="text-teal-600 mt-1 mr-2" />
+                <FaCheckCircle className="text-red-600 mt-1 mr-2" />
                 <span>{item}</span>
               </li>
             ))}
