@@ -7,6 +7,8 @@ import StorageContainer from "./components/StorageContainer";
 import ModularContainers from "./components/ModularContainers";
 import AboutUs from "./components/AboutUs";
 import WhatWeProvide from "./components/WhatWeProvide";
+import Maps from "./components/Maps";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <WhatWeProvide />
       <StorageContainer />
       <ModularContainers />
+      <Gallery />
+      <Maps />
       <Footer />
     </div>
   );
