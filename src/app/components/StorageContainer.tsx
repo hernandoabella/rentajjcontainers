@@ -82,7 +82,7 @@ export default function ContainersSection() {
 
               {/* Info */}
               <div className="p-6 flex flex-col flex-1">
-                <span className="text-sm font-semibold text-green-600 mb-2">
+                <span className="text-sm font-semibold text-red-500 mb-2">
                   {container.condition}
                 </span>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">
@@ -97,7 +97,7 @@ export default function ContainersSection() {
                 {/* Botón WhatsApp */}
                 <button
                   onClick={() => handleWhatsApp(container.title)}
-                  className="mt-auto flex items-center justify-center gap-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300"
+                  className="mt-auto flex items-center justify-center gap-2 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300"
                 >
                   Más información
                 </button>
