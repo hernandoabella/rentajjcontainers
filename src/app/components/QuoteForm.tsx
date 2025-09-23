@@ -95,7 +95,7 @@ Transporte: ${transport}`;
       {/* WhatsApp */}
       <input
         type="text"
-        placeholder="WhatsApp"
+        placeholder="Número de WhatsApp"
         value={whatsapp}
         onChange={(e) => setWhatsapp(e.target.value)}
         className="w-full border border-gray-300 rounded px-3 py-2"
@@ -105,7 +105,7 @@ Transporte: ${transport}`;
       {/* Email */}
       <input
         type="email"
-        placeholder="Email"
+        placeholder="Correo Electrónico"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         className="w-full border border-gray-300 rounded px-3 py-2"
@@ -160,7 +160,7 @@ Transporte: ${transport}`;
 
       <button
         type="submit"
-        className="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition font-bold"
+        className="w-full bg-red-500 text-white py-2 rounded hover:bg-red-600 transition font-bold"
       >
         Cotizar Ahora
       </button>
