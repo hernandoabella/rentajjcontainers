@@ -85,7 +85,7 @@ Condición: ${container.condition}`;
               </div>
 
               <div className="p-6 flex flex-col gap-2">
-                <span className="text-sm font-semibold text-green-600">
+                <span className="text-sm font-semibold text-red-500">
                   {container.condition}
                 </span>
                 <h3 className="text-lg font-bold text-gray-800">
@@ -99,7 +99,7 @@ Condición: ${container.condition}`;
 
                 <button
                   onClick={() => handleWhatsApp(container)}
-                  className="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition font-bold"
+                  className="w-full bg-red-500 text-white py-2 rounded hover:bg-green-600 transition font-bold"
                 >
                   Más Información
                 </button>
