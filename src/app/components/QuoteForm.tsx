@@ -49,12 +49,12 @@ Transporte: ${transport}`;
         onChange={(e) => setSize(e.target.value)}
         className="w-full border border-gray-300 rounded px-3 py-2"
       >
-        <option>10ft</option>
-        <option>20ft</option>
-        <option>40ft</option>
-        <option>45ft</option>
-        <option>20ft modular</option>
-        <option>40ft modular</option>
+        <option>10 pies</option>
+        <option>20 pies</option>
+        <option>40 pies</option>
+        <option>45 pies</option>
+        <option>20 pies modular</option>
+        <option>40 pies modular</option>
       </select>
 
       {/* Tipo de contenedor */}
@@ -63,12 +63,12 @@ Transporte: ${transport}`;
         onChange={(e) => setContainerType(e.target.value)}
         className="w-full border border-gray-300 rounded px-3 py-2"
       >
-        <option>standard</option>
-        <option>high cube</option>
-        <option>open side - standard</option>
-        <option>open side - high cube</option>
-        <option>open top</option>
-        <option>modular</option>
+        <option>Estándar</option>
+        <option>Cubo Alto</option>
+        <option>Lado Abierto - Estándar</option>
+        <option>Lado Abierto - Cubo Alto</option>
+        <option>Parte Superior Abierta</option>
+        <option>Modular</option>
       </select>
 
       {/* Condición */}
