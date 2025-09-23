@@ -81,7 +81,7 @@ export default function MarkingOfContainers() {
             const Icon = mark.icon;
             return (
               <div key={idx} className="flex gap-4 items-start">
-                <Icon className="text-teal-600 text-2xl mt-1 flex-shrink-0" />
+                <Icon className="text-red-600 text-2xl mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800">{mark.title}</h3>
                   <p className="text-gray-600 leading-relaxed whitespace-pre-line">
