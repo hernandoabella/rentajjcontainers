@@ -92,7 +92,7 @@ export default function AboutServices() {
             {/* Texto */}
             <div className="md:w-1/2 space-y-4">
               <div className="flex items-center gap-3">
-                <Icon className="text-teal-600 text-3xl" />
+                <Icon className="text-red-600 text-3xl" />
                 <h3 className="text-2xl font-bold text-gray-800">
                   {service.title}
                 </h3>
