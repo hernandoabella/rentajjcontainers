@@ -4,12 +4,13 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const logos = [
-  "/logos/company1.png",
-  "/logos/company2.png",
-  "/logos/company3.png",
-  "/logos/company4.png",
-  "/logos/company5.png",
-  "/logos/company6.png",
+  "/logos/img1.png",
+  "/logos/img2.png",
+  "/logos/img3.png",
+  "/logos/img4.png",
+  "/logos/img5.png",
+  "/logos/img6.png",
+  "/logos/img7.png",
 ];
 
 export default function TrustedCompanies() {
