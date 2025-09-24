@@ -18,19 +18,19 @@ export default function AboutIntro() {
             Quiénes Somos
           </h2>
           <p className="text-gray-600 mb-4 leading-relaxed">
-            RENTAJJ Containers es una de las compañías más grandes de comercio
-            de contenedores en el Medio Oriente. Compramos y vendemos
-            contenedores marítimos nuevos y usados para todas las industrias.
-          </p>
-          <p className="text-gray-600 leading-relaxed">
-            Además de ser una plataforma de comercio de contenedores marítimos,
-            RENTAJJ Containers también ofrece servicios de inspección y
-            peritaje, cumpliendo estrictamente con las normas y regulaciones
-            establecidas por el IICL. Nuestros inspectores certificados por el
-            Institute of International Container Lessors (IICL) revisan los
-            contenedores y la documentación correspondiente al detalle para
-            garantizar que estén listos para el transporte marítimo.
-          </p>
+  RENTACONTAINERJJ es una de las compañías líderes en comercio
+  de contenedores a nivel nacional. Compramos y vendemos
+  contenedores marítimos nuevos y usados para todas las industrias.
+</p>
+<p className="text-gray-600 leading-relaxed">
+  Además de ser una plataforma de comercio de contenedores marítimos,
+  RENTACONTAINERJJ también ofrece servicios de inspección y
+  peritaje, cumpliendo estrictamente con las normas y regulaciones
+  establecidas por el IICL. Nuestros inspectores certificados por el
+  Institute of International Container Lessors (IICL) revisan los
+  contenedores y la documentación correspondiente al detalle para
+  garantizar que estén listos para el transporte marítimo.
+</p>
         </motion.div>
 
         {/* Imagen a la derecha */}
