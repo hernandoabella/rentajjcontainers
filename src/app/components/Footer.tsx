@@ -31,7 +31,7 @@ export default function Footer() {
     { href: "/sobre-nosotros", label: "Sobre Nosotros" },
     { href: "/compra-y-venta", label: "Compra y Venta" },
     { href: "/marcado-de-contenedores", label: "Marcado de Contenedores" },
-    { href: "/contenedores", label: "Contenedores" },
+    { href: "/nuestro-deposito", label: "Nuestro Depósito" },
     { href: "/conversion-de-contenedores", label: "Conversión de Contenedores" }
   ];
 
