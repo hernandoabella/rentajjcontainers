@@ -23,9 +23,10 @@ export default function Navbar() {
     { name: "Inicio", href: "/" },
     { name: "Sobre Nosotros", href: "/sobre-nosotros" },
     { name: "Compra y Venta", href: "/compra-y-venta" },
-    { name: "Marcado de Contenedores", href: "/marcado-de-contenedores" },
-    { name: "Contenedores", href: "/contenedores" },
     { name: "Conversión de Contenedores", href: "/conversion-de-contenedores" },
+    { name: "Nuestro Depósito", href: "/nuestro-deposito" },
+    { name: "Marcado de Contenedores", href: "/marcado-de-contenedores" },
+    
   ];
 
   // Función para abrir WhatsApp
