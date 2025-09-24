@@ -1,58 +1,74 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Image from "next/image";
 
-const containers = [
-  { name: "Contenedor Estándar de 10 Pies", image: "/containers/10ft-standard.jpg" },
-  { name: "Contenedor Reefer de 10 Pies", image: "/containers/10ft-reefer.jpg" },
-  { name: "Contenedor DNV de 10 Pies", image: "/containers/10ft-dnv.jpg" },
-  { name: "Contenedor Estándar de 20 Pies", image: "/containers/20ft-standard.jpg" },
-  { name: "Contenedor High Cube de 20 Pies", image: "/containers/20ft-highcube.jpg" },
-  { name: "Contenedor Reefer de 20 Pies", image: "/containers/20ft-reefer.jpg" },
+interface ContainerCardProps {
+  title: string;
+  image: string;
+  description: string;
+}
+
+const phoneNumber = "+573104040273";
+
+const containers: ContainerCardProps[] = [
+  { title: "40' Flat Rack Container", image: "/containers/c1.png", description: "Ideal para cargas sobredimensionadas y maquinaria pesada." },
+  { title: "40' Reefer High Cube", image: "/containers/c2.png", description: "Ideal para el transporte de productos perecederos, almacenamiento y cadena de frio." },
+  { title: "20' Reefer High Cube", image: "/containers/c3.png", description: "Ideal para el transporte de productos perecederos, almacenamiento y cadena de frio." },
+  { title: "40' Standard High Cube Container", image: "/containers/c4.png", description: "Contamos con disponibilidad para almacenamiento y transporte maritimo internacional (Food Grade)" },
+  { title: "40' Standard High Cube Container Usados como nuevos", image: "/containers/c5.png", description: "Ideal para transformacion y proyectos arquitectonicos a tu medida" },
+  { title: "20' Standard Container Usados como nuevos", image: "/containers/c6.png", description: "Ideal para transformacion y proyectos arquitectonicos a tu medida" },
+  { title: "20' Standard High Cube Container Nuevo", image: "/containers/c7.png", description: "Un equipo mas alto y mas versatil para el desarrollo de tus operaciones." },
+  { title: "20' Standard Container Usados como nuevos", image: "/containers/c8.png", description: "Ideal para transformacion y proyectos arquitectonicos a tu medida" },
 ];
 
-export default function TypesOfContainers() {
+export default function ContainersSection() {
+  const handleWhatsApp = (title: string) => {
+    const message = `Hola, me interesa recibir más información sobre el ${title}.`;
+    const url = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <section className="py-16 bg-gray-50">
-      <div className="container mx-auto px-6">
-        {/* Título */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold text-center mb-12"
-        >
-          Tipos de Contenedores
-        </motion.h2>
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Tipos de Contenedores</h2>
+         
+        </div>
 
-        {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {containers.map((container, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
-            >
-              <div className="relative w-full h-56">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {containers.map((container, index) => (
+            <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+              {/* Contenedor de imagen con tamaño fijo */}
+              <div className="w-full h-48 flex justify-center items-center bg-gray-100 p-4">
                 <Image
                   src={container.image}
-                  alt={container.name}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw,
-                         (max-width: 1200px) 50vw,
-                         33vw"
-                  priority={idx < 3} // optimiza las primeras imágenes para LCP
+                  alt={container.title}
+                  width={250}
+                  height={160}
+                  className="object-contain w-full h-full"
+                  style={{ maxWidth: "250px", maxHeight: "160px" }}
                 />
               </div>
-              <div className="p-4 text-center">
-                <h3 className="text-lg font-semibold">{container.name}</h3>
+
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-lg font-bold text-gray-800 mb-2">{container.title}</h3>
+
+                {(container.title === "40' Standard High Cube Container" ||
+                  container.title === "20' Standard High Cube Container Nuevo") && (
+                  <span className="text-red-500 font-semibold mb-2">Nuevo</span>
+                )}
+
+                <p className="text-gray-600 mb-4 text-sm">{container.description}</p>
+
+                <button
+                  onClick={() => handleWhatsApp(container.title)}
+                  className="mt-auto flex items-center justify-center gap-2 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition duration-300"
+                >
+                  Más información
+                </button>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
