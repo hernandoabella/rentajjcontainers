@@ -95,10 +95,10 @@ export default function MarkingOfContainers() {
 
         <p className="text-gray-600 leading-relaxed">
           Estas son las principales marcas que deben mostrarse en los contenedores para uso comercial. 
-          Los contenedores que <span className="font-semibold text-teal-600">RENTAJJ Containers</span> vende o arrienda 
+          Los contenedores que <span className="font-semibold text-teal-600">RENTACONTAINERSJJ</span> vende o arrienda 
           son inspeccionados y marcados regularmente para que nuestros clientes no tengan que preocuparse por trámites. 
           Si necesitas ayuda para marcar tu contenedor o actualizar la información,{" "}
-          <span className="font-semibold text-teal-600">RENTAJJ Containers</span> te asistirá.
+          <span className="font-semibold text-teal-600">RENTACONTAINERSJJ</span> te asistirá.
         </p>
       </motion.div>
     </section>
