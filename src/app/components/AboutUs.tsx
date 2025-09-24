@@ -9,16 +9,16 @@ export default function AboutUs() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
         {/* Imagen */}
         <motion.div
-          className="w-full md:w-1/2 h-64 relative rounded-lg shadow-md overflow-hidden"
+          className="w-full md:w-1/2 aspect-[4/3] relative rounded-lg shadow-md overflow-hidden"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
           <Image
-            src="/about-us.jpg"
+            src="/containers/aboutus.png"
             alt="Sobre Nosotros"
             fill
-            className="object-cover"
+            className="object-contain"
             sizes="(max-width: 768px) 100vw,
                    (max-width: 1200px) 50vw,
                    50vw"
