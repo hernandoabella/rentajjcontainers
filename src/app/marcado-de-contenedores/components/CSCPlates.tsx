@@ -18,16 +18,19 @@ export default function CSCPlates() {
           ¿Qué son las placas CSC?
         </h2>
         <p className="text-gray-600 leading-relaxed">
-          La Convención Internacional para la Seguridad de los Contenedores (CSC), llevada a cabo en 1972 por la ONU y la Organización Marítima Internacional, estableció regulaciones que formalizan los requisitos internacionales de seguridad para la inspección y mantenimiento de contenedores de carga.
+          La Convención Internacional para la Seguridad de los Contenedores (CSC), establecida en 1972 por la ONU y la Organización Marítima Internacional, define los requisitos internacionales de seguridad para la inspección y mantenimiento de contenedores de carga.
         </p>
         <p className="text-gray-600 leading-relaxed">
           Los principales objetivos de la CSC son:
         </p>
         <ul className="list-disc list-inside text-gray-600 space-y-2">
-          <li>Seguir las instrucciones necesarias para garantizar la seguridad de la vida humana durante el transporte y manejo de contenedores.</li>
-          <li>Establecer regulaciones de seguridad uniformes a nivel internacional en los países adoptantes de la CSC (partes contratantes).</li>
-          <li>Delegar generalmente a organizaciones autorizadas las tareas de prueba, inspección y aprobación de contenedores para permitir su navegación internacional.</li>
+          <li>Garantizar la seguridad durante el transporte y manejo de contenedores</li>
+          <li>Establecer regulaciones de seguridad uniformes a nivel internacional</li>
+          <li>Delegar a organizaciones autorizadas las tareas de prueba, inspección y aprobación de contenedores para transporte internacional</li>
         </ul>
+        <p className="text-gray-600 leading-relaxed font-semibold">
+          En RENTACONTAINERSJJ, todos nuestros contenedores cuentan con placas CSC válidas y certificadas.
+        </p>
       </motion.div>
 
       {/* Imagen derecha */}
@@ -40,7 +43,7 @@ export default function CSCPlates() {
       >
         <Image
           src="/containers/placa-csc.jpg"
-          alt="CSC Plates"
+          alt="Placas CSC de certificación internacional para contenedores"
           fill
           className="object-cover"
         />
