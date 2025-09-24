@@ -166,7 +166,7 @@ export default function Footer() {
           
           <button
             onClick={scrollToTop}
-            className="bg-red-600 text-white p-2 rounded-full hover:bg-blue-700 transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-black"
+            className="bg-red-600 text-white p-2 rounded-full hover:bg-red-700 transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-black"
             aria-label="Volver al inicio"
           >
             <FaArrowUp size={14} />
