@@ -26,7 +26,6 @@ export default function Navbar() {
     { name: "Conversión de Contenedores", href: "/conversion-de-contenedores" },
     { name: "Nuestro Depósito", href: "/nuestro-deposito" },
     { name: "Marcado de Contenedores", href: "/marcado-de-contenedores" },
-    
   ];
 
   // Función para abrir WhatsApp
@@ -107,7 +106,7 @@ export default function Navbar() {
           <div className="lg:hidden flex items-center space-x-4">
             <button
               onClick={openWhatsApp}
-              className={`text-white px-4 py-2 rounded-lg font-semibold text-sm transition border-2 bg-green-600 border-green-600 hover:bg-green-700`}
+              className={`text-white px-4 py-2 rounded-lg font-semibold text-sm transition border-2 bg-red-600 border-red-600 hover:bg-red-700`}
             >
               Cotizar
             </button>
@@ -152,7 +151,7 @@ export default function Navbar() {
                   <FaPhone className="mr-3" />
                   Llamar Ahora
                 </a>
-                <button onClick={openWhatsApp} className="flex items-center text-green-600 font-semibold bg-green-50 px-4 py-2 rounded-lg w-full">
+                <button onClick={openWhatsApp} className="flex items-center text-red-600 font-semibold bg-red-50 px-4 py-2 rounded-lg w-full">
                   <FaWhatsapp className="mr-3" />
                   Cotizar por WhatsApp
                 </button>
