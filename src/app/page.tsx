@@ -9,6 +9,7 @@ import AboutUs from "./components/AboutUs";
 import WhatWeProvide from "./components/WhatWeProvide";
 import Maps from "./components/Maps";
 import Gallery from "./components/Gallery";
+import TrustedCompanies from "./components/TrustedCompanies";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <WhatWeProvide />
       <StorageContainer />
       <ModularContainers />
+      <TrustedCompanies />
       <Gallery />
       <Maps />
       <Footer />
