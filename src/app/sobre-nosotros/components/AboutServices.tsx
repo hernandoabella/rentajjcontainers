@@ -13,7 +13,7 @@ import {
 const services = [
   {
     title: "Comercio de Contenedores",
-    description: `En RENTACONTAINERJJ vendemos todo tipo de contenedores marítimos a precios muy competitivos. 
+    description: `En RENTACONTAINERSJJ vendemos todo tipo de contenedores marítimos a precios muy competitivos. 
     Somos los mayores almacenistas de todo tipo de contenedores ISO nuevos y usados en la región. 
     Contamos con varias corporaciones multinacionales como socios de abastecimiento desde hace más de 10 años, 
     lo que nos da acceso a contenedores de calidad para el comercio. 
@@ -23,7 +23,7 @@ const services = [
   },
   {
     title: "Arrendamiento de Contenedores",
-    description: `En RENTACONTAINERJJ poseemos más de 1000 contenedores para alquiler a corto y largo plazo, 
+    description: `En RENTACONTAINERSJJ poseemos más de 1000 contenedores para alquiler a corto y largo plazo, 
     sirviendo a una amplia variedad de propósitos de almacenamiento y envío. 
     Incluimos tanto contenedores secos como refrigerados. 
     Para mantener la calidad, todos nuestros contenedores de la flota de arrendamiento se reemplazan cada 5 años, 
@@ -35,7 +35,7 @@ const services = [
   },
   {
     title: "Transporte (Envíos)",
-    description: `RENTACONTAINERJJ brinda servicios de transporte a nivel nacional e internacional. 
+    description: `RENTACONTAINERSJJ brinda servicios de transporte a nivel nacional e internacional. 
     Contamos con una amplia variedad de flota que garantiza una solución integral para los clientes. 
     "Valoramos más el tiempo y la seguridad que los cargos de flete", 
     una política basada en la satisfacción del cliente que nos ha guiado todos estos años.`,
@@ -44,7 +44,7 @@ const services = [
   },
   {
     title: "Servicios de Depósito",
-    description: `En RENTACONTAINERJJ contamos con instalaciones estratégicas que brindan ventajas para el servicio de depósitos a empresas multinacionales de leasing y transporte marítimo. 
+    description: `En RENTACONTAINERSJJ contamos con instalaciones estratégicas que brindan ventajas para el servicio de depósitos a empresas multinacionales de leasing y transporte marítimo. 
     - Instalaciones modernas y amplias con sistemas de control informatizados  
     - Área de reparación y servicio completamente equipada para contenedores y reefers  
     - Servicio continuo que incluye inspección, reporte, estimación y reparaciones.`,
@@ -53,7 +53,7 @@ const services = [
   },
   {
     title: "Servicios de Inspección y Peritaje",
-    description: `En RENTACONTAINERJJ los contenedores deben pasar por inspección y peritaje exhaustivo, exigido por el IICL, antes de poder ser utilizados. 
+    description: `En RENTACONTAINERSJJ los contenedores deben pasar por inspección y peritaje exhaustivo, exigido por el IICL, antes de poder ser utilizados. 
     Nuestros inspectores certificados por el IICL se aseguran de que todo cumpla con las normativas internacionales. 
     Revisan daños, reparaciones no conformes y garantizan la limpieza para evitar contaminación, residuos o plagas. 
     Los contenedores se inspeccionan visualmente desde todos los ángulos para detectar abolladuras, fugas, corrosión o defectos. 
