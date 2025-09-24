@@ -15,7 +15,7 @@ export default function SalePurchaseIntro() {
         viewport={{ once: true }}
       >
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-          Compra y Venta de Contenedores en Dubái
+          Compra y Venta de Contenedores en toda Colombia
         </h2>
         <p className="text-gray-600 leading-relaxed">
           RENTAJJ Containers vende contenedores nuevos y usados a través de su división de comercio de contenedores. 
@@ -47,7 +47,7 @@ export default function SalePurchaseIntro() {
         viewport={{ once: true }}
       >
         <Image
-          src="/venta-y-compra/sale-intro.jpg"
+          src="/containers/aboutus.png"
           alt="Compra y Venta de Contenedores"
           fill
           className="object-cover"
