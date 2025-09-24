@@ -76,7 +76,7 @@ export default function Footer() {
           </Link>
           
           <p className="text-sm leading-6">
-            RENTAJJ Containers es una compañía especializada en la venta,
+            RENTACONTAINERSJJ es una compañía especializada en la venta,
             compra y conversión de contenedores. Ofrecemos soluciones confiables
             y eficientes para el manejo de carga en todo el mundo.
           </p>
@@ -161,7 +161,7 @@ export default function Footer() {
       <div className="mt-12 border-t border-gray-800 pt-6">
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <span className="text-sm text-gray-400">
-            © {new Date().getFullYear()} RENTAJJ CONTAINERS. Todos los derechos reservados.
+            © {new Date().getFullYear()} RENTACONTAINERSJJ. Todos los derechos reservados.
           </span>
           
           <button
