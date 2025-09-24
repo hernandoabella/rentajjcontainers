@@ -85,17 +85,12 @@ Condición: ${container.condition}`;
               </div>
 
               <div className="p-6 flex flex-col gap-2">
-                <span className="text-sm font-semibold text-red-500">
-                  {container.condition}
-                </span>
+                
                 <h3 className="text-lg font-bold text-gray-800">
                   {container.title}
                 </h3>
-                <p className="text-gray-700 text-sm">Precio</p>
-                <p className="text-xl font-bold text-gray-900">
-                  {container.price}
-                </p>
-                <p className="text-gray-500 text-sm mb-4">Impuesto excluido</p>
+                
+                
 
                 <button
                   onClick={() => handleWhatsApp(container)}
