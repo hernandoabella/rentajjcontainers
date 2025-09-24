@@ -17,7 +17,7 @@ export default function CSCInspections() {
       >
         <Image
           src="/containers/csc-inspections.jpg"
-          alt="CSC Inspections"
+          alt="Inspecciones CSC de contenedores"
           fill
           className="object-cover"
         />
@@ -35,7 +35,7 @@ export default function CSCInspections() {
           Inspecciones CSC Regulares para Mantener la Seguridad
         </h2>
         <p className="text-gray-600 leading-relaxed">
-          Los contenedores de envío deben ser escaneados a intervalos regulares para garantizar su seguridad. 
+          Los contenedores de envío deben ser inspeccionados a intervalos regulares para garantizar su seguridad. 
           Los propietarios de contenedores deben revisarlos periódicamente con la ayuda de auditores e inspectores certificados.
         </p>
 
@@ -56,9 +56,9 @@ export default function CSCInspections() {
         </ul>
 
         <p className="text-gray-600 leading-relaxed">
-          <strong>RENTAJJ Containers, tu solución integral para cumplimiento CSC:</strong> 
-          Contamos con un equipo de inspectores certificados que revisan cada aspecto de la conformidad CSC e IISL para nuestros clientes. 
-          Te liberamos de papeleos y mantenimientos proporcionando los mejores servicios en Medio Oriente y Asia.
+          <strong>RENTACONTAINERJJ, tu solución integral para cumplimiento CSC:</strong> 
+          Contamos con un equipo de inspectores certificados que revisan cada aspecto de la conformidad CSC e IICL para nuestros clientes. 
+          Te liberamos de papeleos y mantenimientos proporcionando los mejores servicios de inspección y certificación.
         </p>
       </motion.div>
     </section>
