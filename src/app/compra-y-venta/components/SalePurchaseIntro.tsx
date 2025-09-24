@@ -18,23 +18,13 @@ export default function SalePurchaseIntro() {
           Compra y Venta de Contenedores en toda Colombia
         </h2>
         <p className="text-gray-600 leading-relaxed">
-          RENTAJJ Containers vende contenedores nuevos y usados a través de su división de comercio de contenedores. 
-          Esta división se enfoca principalmente en la venta de equipos de contenedores en Medio Oriente, 
-          especialmente en Dubái y Arabia Saudita. 
-          RENTAJJ Containers ofrece contenedores Dry de 20ft STD, 40ft STD y 40ft High Cube. 
-          También nos especializamos en la venta de equipos especiales como contenedores Open Top, Flat-Rack y contenedores refrigerados marinos.
+         RENTACONTAINERSJJ vende contenedores nuevos y usados a través de su división de comercio de contenedores. Esta división se enfoca principalmente en la venta de equipos de contenedores a nivel nacional e internacional. RENTACONTAINERSJJ ofrece contenedores Dry de 20ft STD, 40ft STD y 40ft High Cube. También nos especializamos en la venta de equipos especiales como contenedores Open Top, Flat-Rack y contenedores refrigerados marinos.
         </p>
         <p className="text-gray-600 leading-relaxed">
-          RENTAJJ Containers cuenta con una amplia red de instalaciones de depósitos en todos los países de Medio Oriente 
-          para garantizar que los clientes puedan adquirir contenedores con la máxima flexibilidad y en el menor tiempo posible. 
-          RENTAJJ Containers coopera con una amplia gama de proveedores internacionales para asegurar la mayor disponibilidad 
-          de contenedores en las ubicaciones deseadas.
+         RENTACONTAINERSJJ cuenta con una amplia red de instalaciones de depósitos en múltiples ubicaciones estratégicas para garantizar que los clientes puedan adquirir contenedores con la máxima flexibilidad y en el menor tiempo posible. RENTACONTAINERSJJ coopera con una amplia gama de proveedores internacionales para asegurar la mayor disponibilidad de contenedores en las ubicaciones deseadas.
         </p>
         <p className="text-gray-600 leading-relaxed">
-          RENTAJJ Containers garantiza que los contenedores que proporcionamos son adecuados tanto para almacenamiento doméstico 
-          como para transporte nacional e internacional. 
-          Todo el equipo se entrega con una certificación de placa CSC válida 
-          para garantizar un transporte seguro por tren, barco o camión.
+          RENTACONTAINERSJJ garantiza que los contenedores que proporcionamos son adecuados tanto para almacenamiento doméstico como para transporte nacional e internacional. Todo el equipo se entrega con una certificación de placa CSC válida para garantizar un transporte seguro por tren, barco o camión.
         </p>
       </motion.div>
 
