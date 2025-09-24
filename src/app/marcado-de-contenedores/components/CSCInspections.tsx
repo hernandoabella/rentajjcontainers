@@ -44,12 +44,12 @@ export default function CSCInspections() {
         </h3>
         <ul className="list-disc list-inside text-gray-600 space-y-4">
           <li>
-            <FaCheckCircle className="inline text-teal-600 mr-2" />
+            <FaCheckCircle className="inline text-red-600 mr-2" />
             <strong>Periodic Examination Scheme (PES):</strong> 
             Los contenedores deben ser examinados dentro de los 5 años posteriores a su fabricación. Tras el primer servicio, deben inspeccionarse cada treinta meses. La placa CSC normalmente indica la próxima fecha de examen (NED).
           </li>
           <li>
-            <FaShieldAlt className="inline text-teal-600 mr-2" />
+            <FaShieldAlt className="inline text-red-600 mr-2" />
             <strong>Approved Continuous Examination Programme (ACEP):</strong> 
             Si un contenedor es reparado o inspeccionado bajo ACEP, se marca con el número del esquema en la placa CSC, usualmente mediante un decal. Los países contratantes deben hacer pública la lista de esquemas ACEP.
           </li>
