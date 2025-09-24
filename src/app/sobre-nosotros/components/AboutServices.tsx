@@ -13,7 +13,7 @@ import {
 const services = [
   {
     title: "Comercio de Contenedores",
-    description: `En RENTAJJ Containers vendemos todo tipo de contenedores marítimos a precios muy competitivos en Medio Oriente. 
+    description: `En RENTACONTAINERJJ vendemos todo tipo de contenedores marítimos a precios muy competitivos. 
     Somos los mayores almacenistas de todo tipo de contenedores ISO nuevos y usados en la región. 
     Contamos con varias corporaciones multinacionales como socios de abastecimiento desde hace más de 10 años, 
     lo que nos da acceso a contenedores de calidad para el comercio. 
@@ -23,28 +23,28 @@ const services = [
   },
   {
     title: "Arrendamiento de Contenedores",
-    description: `En RENTAJJ Containers poseemos más de 1000 contenedores para alquiler a corto y largo plazo, 
+    description: `En RENTACONTAINERJJ poseemos más de 1000 contenedores para alquiler a corto y largo plazo, 
     sirviendo a una amplia variedad de propósitos de almacenamiento y envío. 
     Incluimos tanto contenedores secos como refrigerados. 
     Para mantener la calidad, todos nuestros contenedores de la flota de arrendamiento se reemplazan cada 5 años, 
     y son inspeccionados y reparados si es necesario por nuestros técnicos certificados. 
-    Ofrecemos alquiler de contenedores, manipulación y transporte en paquete en cualquier parte de los EAU. 
+    Ofrecemos alquiler de contenedores, manipulación y transporte en paquete en cualquier parte del país. 
     El período mínimo de arrendamiento es de 30 días.`,
     image: "/about/arrendamiento-de-contenedores.jpg",
     icon: FaWarehouse,
   },
   {
     title: "Transporte (Envíos)",
-    description: `RENTAJJ Containers brinda servicios de transporte en los EAU y desde los Emiratos hacia el CCG y el Levante. 
+    description: `RENTACONTAINERJJ brinda servicios de transporte a nivel nacional e internacional. 
     Contamos con una amplia variedad de flota que garantiza una solución integral para los clientes. 
-    “Valoramos más el tiempo y la seguridad que los cargos de flete”, 
+    "Valoramos más el tiempo y la seguridad que los cargos de flete", 
     una política basada en la satisfacción del cliente que nos ha guiado todos estos años.`,
     image: "/about/transporte-y-envio.jpg",
     icon: FaTruckMoving,
   },
   {
     title: "Servicios de Depósito",
-    description: `En RENTAJJ Containers contamos con instalaciones céntricas en Dubái que brindan ventajas para el servicio de depósitos a empresas multinacionales de leasing y transporte marítimo. 
+    description: `En RENTACONTAINERJJ contamos con instalaciones estratégicas que brindan ventajas para el servicio de depósitos a empresas multinacionales de leasing y transporte marítimo. 
     - Instalaciones modernas y amplias con sistemas de control informatizados  
     - Área de reparación y servicio completamente equipada para contenedores y reefers  
     - Servicio continuo que incluye inspección, reporte, estimación y reparaciones.`,
@@ -53,7 +53,7 @@ const services = [
   },
   {
     title: "Servicios de Inspección y Peritaje",
-    description: `En RENTAJJ Containers los contenedores deben pasar por inspección y peritaje exhaustivo, exigido por el IICL, antes de poder ser utilizados. 
+    description: `En RENTACONTAINERJJ los contenedores deben pasar por inspección y peritaje exhaustivo, exigido por el IICL, antes de poder ser utilizados. 
     Nuestros inspectores certificados por el IICL se aseguran de que todo cumpla con las normativas internacionales. 
     Revisan daños, reparaciones no conformes y garantizan la limpieza para evitar contaminación, residuos o plagas. 
     Los contenedores se inspeccionan visualmente desde todos los ángulos para detectar abolladuras, fugas, corrosión o defectos. 
